@@ -1,11 +1,13 @@
 {
   "hosting": {
-    "site":"gdgkc-aura",
+    "site": "gdgkc-aura",
     "public": "dist",
-    "rewrites": [ {
+    "rewrites": [
+      {
         "source": "**",
         "destination": "/index.html"
-    } ],
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
