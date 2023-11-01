@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"myaurapp",
+    "site":"gdgkc-aura",
     "public": "dist",
     "rewrites": [ {
         "source": "**",
