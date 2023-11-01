@@ -6,8 +6,8 @@
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        >Google Developer Groups (GDGs) are for developers who are interested in any software development topics. Past events have focused on Generative AI via APIs, Android Jetpack Compose, the Firebase platform, Angular, and more.</p>
+        <!-- <p class="google-font" style="font-size:95%">About different Google technologies</p> -->
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
