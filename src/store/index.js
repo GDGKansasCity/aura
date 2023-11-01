@@ -42,15 +42,15 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-      {
-        text: 'Speakers',
-        to: '/speakers',
-        icon: 'mdi-assistant',
-        meta: {
-          showToolbar: true,
-          showBottomNav: false
-        },
-      },
+      // {
+      //   text: 'Speakers',
+      //   to: '/speakers',
+      //   icon: 'mdi-assistant',
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: false
+      //   },
+      // },
       {
         text: 'About',
         to: '/about',
@@ -60,15 +60,15 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-      {
-        text: 'Contact',
-        to: '/contact',
-        icon: 'mdi-contacts',
-        meta: {
-          showToolbar: true,
-          showBottomNav: true
-        },
-      },
+      // {
+      //   text: 'Contact',
+      //   to: '/contact',
+      //   icon: 'mdi-contacts',
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: true
+      //   },
+      // },
       {
         text: 'Partners',
         to: '/partners',
@@ -78,15 +78,15 @@ export default new Vuex.Store({
           showBottomNav: false
         },
       },
-      {
-        text: 'Blogs',
-        to: '/blogs',
-        icon: 'mdi-blogger',
-        meta: {
-          showToolbar: true,
-          showBottomNav: false
-        },
-      }
+      // {
+      //   text: 'Blogs',
+      //   to: '/blogs',
+      //   icon: 'mdi-blogger',
+      //   meta: {
+      //     showToolbar: false,
+      //     showBottomNav: false
+      //   },
+      // }
     ]
   },
   getters: {
